@@ -2,7 +2,7 @@
 
 import os
 import glob
-
+import shutil
 import torch
 
 from torch.utils.cpp_extension import CUDA_HOME
@@ -11,6 +11,7 @@ from torch.utils.cpp_extension import CUDAExtension
 
 from setuptools import find_packages
 from setuptools import setup
+from pathlib import Path
 
 requirements = ["torch", "torchvision"]
 
@@ -64,3 +65,14 @@ setup(
     ext_modules=get_extensions(),
     cmdclass={"build_ext": torch.utils.cpp_extension.BuildExtension},
 )
+
+_dirs = glob.glob('build/lib.linux*', recursive=False)
+dirs = glob.glob(os.path.join(_dirs[0], '*'), recursive=False)
+print(dirs)
+for dir in dirs:
+    if os.path.isfile(dir):
+        shutil.copyfile(dir,
+                        os.path.join('../', Path(dir).name))
+    elif os.path.isdir(dir):
+        shutil.copytree(dir,
+                        os.path.join('../', Path(dir).name))
