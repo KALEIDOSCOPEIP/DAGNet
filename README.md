@@ -15,6 +15,15 @@ Python environmental setups:
  - opencv_python==4.5.1.48
  - torch==1.8.1+cu111
  - torchvision==0.9.1+cu111
+ - DCN==2.0.0.4.2
+
+**If you have any problem instantiating DCN package, try the following troubleshooting measures:
+1.If there's no matching version for DCN when installing it using pip, try install the default version of DCN without specifying its version.
+```Shell
+pip install DCN
+```
+2.If reported `no module named DCN` in any scripts, make sure you have installed DCN package first, and then try replace every reported import error from `import DCN` to `import dcn as DCN`. This might possibly resolve the issue.
+**
 
 To run the testing source code script, please make sure the envionmental needs are met. For Python environmental setups, run `pip install -r requirements.txt`.
 
