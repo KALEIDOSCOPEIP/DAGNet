@@ -18,14 +18,14 @@ Python environmental setups:
 
 For Python environmental setups, run `pip install -r requirements.txt`.
 
-**❗❗ For the deformable convolution environmental requirements: If your platform environment satisfies the above requirements perfectly, the testing script will automatically include the existing deformable convolution cython file we provide within folder `models/deform/`. By this, you can directly run the testing script as specified in the following Testing section. Otherwise, deformable convolution environment is required to be generated mannually due to environment discrepancies. You need to run the following code in the console, or package import error will occur:**
+**❗❗ For the deformable convolution environmental requirements: if your platform environment satisfies the above requirements perfectly, the testing script will automatically include the existing deformable convolution cython file we provide within folder `models/deform/`. By this, you can directly run the testing script as specified in the following Testing section. Otherwise, deformable convolution environment is required to be generated mannually due to environment discrepancies. You need to run the following code in the console, or package import error will occur:**
 
 ```Shell
 cd ./models/deform/original/
 make.sh
 ```
 
-**If the setup process goes well, there should be one newly generated cython .so file at `models/deform/` folder that matches the python version of your environment.**
+**If the setup process goes well, there should be one newly generated cython .so file at `models/deform/` folder that matches the python version of your environment. Any errors reported from gcc/g++ during this compiling procedure could be related to your gcc/g++ configuration dismatch.**
 
 ## Weight file
 
