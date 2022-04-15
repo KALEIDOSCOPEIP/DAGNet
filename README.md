@@ -25,7 +25,7 @@ cd ./models/deform/original/
 make.sh
 ```
 
-**If the setup process goes well, there should be one newly generated cython .so file at `models/deform/` folder that matches the python version of your environment. Any errors reported from gcc/g++ during this compiling procedure could be related to your gcc/g++ configuration dismatch.**
+**If the setup process goes well, there should be one newly generated cython .so file at `models/deform/` folder that matches the python version of your environment. Any errors reported from gcc/g++ during this compiling procedure could be related to your gcc/g++ configuration mismatch.**
 
 ## Weight file
 
