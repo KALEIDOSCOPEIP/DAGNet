@@ -28,7 +28,7 @@ For Python environmental setups, run `pip install -r requirements.txt`.
 
 The weight file can be downloaded from <a href='https://drive.google.com/file/d/1hCjJDQncvuL3c5ca8r_KLqtcMDttLRdU/view?usp=sharing'>Google Drive</a> / <a href='https://pan.baidu.com/s/16bgVu4htvHTcYVbjp7JLag'>BaiduYun</a> (password: code).
 
-The weight file should be placed in the ***weights*** directory, which is not present in the repository and is required to be created manually.
+The weight file should be placed in the ***weights*** directory, and it should be created manually.
 
 ## Open-access datasets
 
