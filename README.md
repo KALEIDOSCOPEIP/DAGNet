@@ -8,7 +8,7 @@ Basic environmental setups:
 
  - Python 3.9
  - CUDA 11.1
- - cnDNN 8.0.5
+ - cuDNN 8.0.5
 
 Python environmental setups:
 
