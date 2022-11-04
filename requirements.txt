@@ -1,0 +1,10 @@
+lxml==4.6.3
+matplotlib==3.3.4
+mmcv==1.7.0
+mmcv_full==1.6.0
+numpy==1.20.1
+opencv_python==4.5.4.60
+pycocotools==2.0.5
+torch==1.10.1+cu102
+torchvision==0.11.3
+tqdm==4.59.0
