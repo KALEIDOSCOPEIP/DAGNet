@@ -32,7 +32,7 @@ The weight file should be placed in the ***weights*** directory, which is not pr
 
 ## Open-access datasets
 
-In our paper we utilize two infrared image sequences that are online available, which can be downloaded from <a href="">Google Drive</a> / <a href="">BaiduYun</a?>
+In our paper we utilize two infrared image sequences that are online available, which can be downloaded from <a href="https://drive.google.com/drive/folders/1ps_LG9kKXgj4kQO4UhoD1R4Ru1AIS7Q0?usp=sharing">Google Drive</a> / <a href="https://pan.baidu.com/s/1oUb8zPDZbP7cE6Bm6U_Uig">BaiduYun</a> (password: code). The file name indicates its corresponding sequence number. We organize these sequences of images into two folders, which are JPEGImages (contains image files in BMP format) and Annotations (contains annotation files in XML format).
 
 ## Test images
 
