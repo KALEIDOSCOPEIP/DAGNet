@@ -26,9 +26,13 @@ For Python environmental setups, run `pip install -r requirements.txt`.
 
 ## Weight file
 
-The weight file can be downloaded from <a href='https://drive.google.com/file/d/1dU4M4tT83DGpYTxZi_NT9NUM4E3bK2MY/view?usp=sharing'>Google Drive</a> / <a href='https://pan.baidu.com/s/1WgAyeoX8geioCHGLczxsdw'>BaiduYun</a> (password: code).
+The weight file can be downloaded from <a href='https://drive.google.com/file/d/1hCjJDQncvuL3c5ca8r_KLqtcMDttLRdU/view?usp=sharing'>Google Drive</a> / <a href='https://pan.baidu.com/s/16bgVu4htvHTcYVbjp7JLag'>BaiduYun</a> (password: code).
 
 The weight file should be placed in the ***weights*** directory, which is not present in the repository and is required to be created manually.
+
+## Open-access datasets
+
+In our paper we utilize two infrared image sequences that are online available, which can be downloaded from <a href="">Google Drive</a> / <a href="">BaiduYun</a?>
 
 ## Test images
 
