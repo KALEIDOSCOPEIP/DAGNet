@@ -1,4 +1,4 @@
-# Differentiated Attention Guided Network over Hierarchical and Aggregated Features for Intelligent UAV Surveillance
+<!-- # Differentiated Attention Guided Network over Hierarchical and Aggregated Features for Intelligent UAV Surveillance -->
 
 Source code for testing the detection performance of DAGNet on infrared UAV targets. The codes are validated on a server with NVIDIA RTX 3090.
 
