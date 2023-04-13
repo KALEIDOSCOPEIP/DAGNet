@@ -4,7 +4,7 @@ from layers import *
 from data import voc_dagnet
 
 
-class RefineDet(nn.Module):
+class DAGNet(nn.Module):
 
     def __init__(self,
                  phase,
@@ -208,10 +208,10 @@ def build_dagnet(phase,
                              out_channels=fa_dim,
                              last_stage=True if i == 3 else False)
            for i, (s_bb_dim, fa_dim) in enumerate(zip([128, 256, 512, 2048], [512, 512, 1024, 512]))]
-    return RefineDet(phase,
-                     device,
-                     backbone,
-                     decode1,
-                     decode2,
-                     fas,
-                     num_classes)
+    return DAGNet(phase,
+                  device,
+                  backbone,
+                  decode1,
+                  decode2,
+                  fas,
+                  num_classes)
