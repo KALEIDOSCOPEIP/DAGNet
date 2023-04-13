@@ -58,11 +58,11 @@ class CDSA(nn.Module):
                                   padding=1)
 
     def forward(self, x):
-        x = self.pwconv1(x)
-        x = self.conv3x3(x, self.offset(x))
-        x = self.bn(x)
-        x = self.pwconv2(x)
-        w = self.sigmoid(x)
+        w = self.pwconv1(x)
+        w = self.conv3x3(w, self.offset(w))
+        w = self.bn(w)
+        w = self.pwconv2(w)
+        w = self.sigmoid(w)
         y = x * w
         return y
 
