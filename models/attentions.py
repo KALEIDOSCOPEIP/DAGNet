@@ -12,10 +12,14 @@ class SCA(nn.Module):
         self.maxpool = nn.MaxPool2d(kernel_size=4, stride=4)
         self.convpool = nn.Conv2d(in_channels, in_channels, 4, stride=4, groups=in_channels)
         self.deconv = nn.ConvTranspose2d(in_channels, in_channels, 4, 4)
+        # self.channel_connection = nn.Sequential(
+        #     nn.Conv2d(in_channels, in_channels // reduction, 1),
+        #     nn.ReLU(),
+        #     nn.Conv2d(in_channels // reduction, in_channels, 1),
+        # )
         self.channel_connection = nn.Sequential(
-            nn.Conv2d(in_channels, in_channels // reduction, 1),
+            nn.Conv2d(in_channels, in_channels, 1),
             nn.ReLU(),
-            nn.Conv2d(in_channels // reduction, in_channels, 1),
         )
         self.sigmoid = nn.Sigmoid()
 
