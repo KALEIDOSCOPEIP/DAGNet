@@ -9,8 +9,8 @@ class SCA(nn.Module):
                  in_channels: int,
                  reduction: int) -> None:
         super().__init__()
-        self.maxpool = nn.MaxPool2d(kernel_size=4, stride=4)
-        self.convpool = nn.Conv2d(in_channels, in_channels, 4, stride=4, groups=in_channels)
+        self.maxpool = nn.MaxPool2d(kernel_size=4, stride=reduction)
+        self.convpool = nn.Conv2d(in_channels, in_channels, 4, stride=reduction, groups=in_channels)
         self.deconv = nn.ConvTranspose2d(in_channels, in_channels, 4, 4)
         # self.channel_connection = nn.Sequential(
         #     nn.Conv2d(in_channels, in_channels // reduction, 1),
