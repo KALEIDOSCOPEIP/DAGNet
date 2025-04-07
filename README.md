@@ -58,5 +58,6 @@ By running the script, the detection results of the sample images will be saved 
   number={9},
   pages={9909-9920},
   keywords={Feature extraction;Autonomous aerial vehicles;Surveillance;Task analysis;Object detection;Convolution;Informatics;Attention mechanism;infrared target detection;network transformation;real-time UAV surveillance;unmanned aerial vehicles (UAVs)},
-  doi={10.1109/TII.2022.3232777}}
+  doi={10.1109/TII.2022.3232777}
+}
 ```
