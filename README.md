@@ -34,7 +34,7 @@ In our paper we utilize two infrared image sequences that are online available, 
 
 ## Test images
 
-The images for test purpose are given in the folder named `test_imgs`
+The images for test purposes are given in the folder named `test_imgs`
 
 ## Testing
 
@@ -44,7 +44,7 @@ python detect.py --weights ./weights/test.pth --image_dir ./test_imgs/ --output 
 ```
 If you wanna run the script with CUDA device, set `--cuda True`, otherwise `--cuda False`.
 
-By running the script, the detection results of the sample images will be saved in the `detection` directory that will appear after the finishing running the script. In each detection result image, the red box indicate the detected UAV target.
+By running the script, the detection results of the sample images will be saved in the `detection` directory that will appear after finishing running the script. In each detection result image, the red box indicates the detected UAV target.
 
 ## Citation
 
@@ -59,5 +59,4 @@ By running the script, the detection results of the sample images will be saved 
   pages={9909-9920},
   keywords={Feature extraction;Autonomous aerial vehicles;Surveillance;Task analysis;Object detection;Convolution;Informatics;Attention mechanism;infrared target detection;network transformation;real-time UAV surveillance;unmanned aerial vehicles (UAVs)},
   doi={10.1109/TII.2022.3232777}}
-
 ```
