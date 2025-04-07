@@ -45,3 +45,19 @@ python detect.py --weights ./weights/test.pth --image_dir ./test_imgs/ --output 
 If you wanna run the script with CUDA device, set `--cuda True`, otherwise `--cuda False`.
 
 By running the script, the detection results of the sample images will be saved in the `detection` directory that will appear after the finishing running the script. In each detection result image, the red box indicate the detected UAV target.
+
+## Citation
+
+```
+@article{fang2023dagnet,
+  author={Fang, Houzhang and Liao, Zikai and Wang, Xuhua and Chang, Yi and Yan, Luxin},
+  journal={IEEE Transactions on Industrial Informatics}, 
+  title={Differentiated Attention Guided Network Over Hierarchical and Aggregated Features for Intelligent UAV Surveillance}, 
+  year={2023},
+  volume={19},
+  number={9},
+  pages={9909-9920},
+  keywords={Feature extraction;Autonomous aerial vehicles;Surveillance;Task analysis;Object detection;Convolution;Informatics;Attention mechanism;infrared target detection;network transformation;real-time UAV surveillance;unmanned aerial vehicles (UAVs)},
+  doi={10.1109/TII.2022.3232777}}
+
+```
