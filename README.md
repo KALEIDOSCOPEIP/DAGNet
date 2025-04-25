@@ -20,7 +20,7 @@ Python environmental setups:
  - torchvision==0.9.1+cu111
  - tqdm==4.59.0
 
-For Python environmental setups, run `pip install -r requirements.txt`.
+For Python environmental setups, run `pip install -r requirements.txt`. Note that the `mmcv` and some other packages have been updated, as well as the CUDA and cuDNN. If you run into some environmental problems, make sure the environment are correctly configured.
 
 ## Weight file
 
