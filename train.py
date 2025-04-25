@@ -36,13 +36,13 @@ train_set = parser.add_mutually_exclusive_group()
 parser.add_argument('--input_size', 
                     default='512',
                     type=str, 
-                    help='RefineDet320 or RefineDet512')
+                    help='The input of the network is fixed to 512.')
 parser.add_argument('--dataset_root', 
                     default='./data/VOC2007/',
                     type=str,
                     help='Dataset root directory path')
 parser.add_argument('--basenet',
-                    default= './weights/backbone-B1-train.pth',
+                    default= './weights/basenet.pth',
                     type=str,
                     help='Pretrained base model')
 parser.add_argument('--batch_size', 
@@ -82,7 +82,7 @@ parser.add_argument('--gamma',
                     help='Gamma update for SGD')
 
 parser.add_argument('--save_folder', 
-                    default='weights_chu255/',
+                    default='./weights/',
                     type=str,
                     help='Directory for saving checkpoint models')
 args = parser.parse_args()
