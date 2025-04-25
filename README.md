@@ -54,6 +54,8 @@ There are two places you need to pay attention to:
 - `data/config.py`: There's one dictionary variable called `voc_dagnet`, and the key `num_classes` controls the number of classes, while `lr_steps` controls when the learning rate drops according to the iterations.
 - `data/voc0712.py`: The cuple variable `VOC_CLASSES` defines what class names are. If there's only one class to detect, **make sure you add a comma after the first string**.
 
+Note that, if you run into some problems with multi-GPU training, it might probably caused by `torch.nn.DataParallel`. You can use `torch.distributed.launch` or `torch.distributed.run` instead and try.
+
 ## Testing
 
 Simply run the following code in the console.
