@@ -24,7 +24,7 @@ For Python environmental setups, run `pip install -r requirements.txt`.
 
 ## Weight file
 
-The pretrained backbone weight file for finetuning can be downloaded from <a href='https://drive.google.com/file/d/1GLfEk0E3_54hZLQOcdR03hrPhoYiT1jy/view?usp=sharing'>Google Drive</a> / <a href='链接：https://pan.baidu.com/s/17KQYchw3rNS2Mn4Cv79hiw'>Baidu Drive</a> (passcode: 2pyz).
+The pretrained backbone weight file for finetuning can be downloaded from <a href='https://drive.google.com/file/d/1GLfEk0E3_54hZLQOcdR03hrPhoYiT1jy/view?usp=sharing'>Google Drive</a> / <a href='https://pan.baidu.com/s/17KQYchw3rNS2Mn4Cv79hiw'>Baidu Drive</a> (passcode: 2pyz).
 
 The testing weight file can be downloaded from <a href='https://drive.google.com/file/d/1hCjJDQncvuL3c5ca8r_KLqtcMDttLRdU/view?usp=sharing'>Google Drive</a> / <a href='https://pan.baidu.com/s/16bgVu4htvHTcYVbjp7JLag'>Baidu Drive</a> (passcode: code).
 
